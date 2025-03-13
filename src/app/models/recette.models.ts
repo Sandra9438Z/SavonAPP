@@ -1,5 +1,6 @@
-/*import { LigneIngredient } from "./ligneIngredient";
-import { Resultat } from "./resultat";*/
+import { LigneIngredient } from "./LigneIngredient";
+import { Resultat } from "./Resultat";
+
 export class Recette {
   id: number | null = null;
   titre: string = '';
@@ -9,6 +10,6 @@ export class Recette {
   avecSoude: boolean = false;
   concentrationAlcalin: number = 0;
   qteAlcalin: number = 0;
-  /*ligneIngredients: LigneIngredient[] = [];
-  resultats: Resultat[] = [];*/
+  ligneIngredients: LigneIngredient[] = [];
+  resultats: Resultat[] = [];
 }

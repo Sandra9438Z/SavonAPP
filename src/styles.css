@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+.nav-button {
+    background-color: #460096;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 50px;
+}
+
