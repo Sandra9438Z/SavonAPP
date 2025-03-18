@@ -1,4 +1,8 @@
-/* You can add global styles to this file, and also import other style files */
+*{
+  font-family: "Lato";
+}
+
+/*Permet de controler les boutton*/
 .nav-button {
   background-color: #460096;
   border: none;
@@ -11,6 +15,21 @@
   border-radius: 50px;
 }
 
-.intro{
-
+/*Permet de modifier le logo*/
+.navbar-brand{
+  width: 150px;
+  text-align: center;
+  color: #460096;
+  text-decoration: underline;
 }
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+h1,h2{
+  text-align: center;
+}
+
+
